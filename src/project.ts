@@ -1,8 +1,8 @@
 import {makeProject} from '@motion-canvas/core/lib';
 
-import example from './scenes/example?scene';
+import planets from './scenes/planets?scene';
 
 export default makeProject({
-  scenes: [example],
+  scenes: [planets],
   background: '#141414',
 });
